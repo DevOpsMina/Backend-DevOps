@@ -27,7 +27,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          sudo docker build -t mongo-frontend .
+          sudo docker build -t mongo-backend .
 
       - name: Tag Docker image
         run: |
